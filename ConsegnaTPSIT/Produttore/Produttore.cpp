@@ -107,7 +107,8 @@ int main(int argc, char* argv[])
 		if (feof(input_file))
 			shared_data->end = TRUE;
 		ReleaseSemaphore(full_semaphore, 1, &count);
-	} while (!feof(input_file));
+	} 
+	while (!feof(input_file));
 
 	fclose(input_file);
 	CloseHandle(empty_semaphore);
