@@ -2,7 +2,7 @@
 #include <Windows.h>
 #include <stdio.h>
 
-#define BLOCK_SIZE   1024
+#define BLOCK_SIZE 1024
 
 #pragma warning ( disable : 4996 )
 #pragma warning ( suppress: 4267 )
