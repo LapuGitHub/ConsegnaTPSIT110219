@@ -1,7 +1,7 @@
 #include "pch.h"
 #include <Windows.h>
 #include <stdio.h>
-
+//Prova commit Cappozzo
 #define BLOCK_SIZE 1024
 
 #pragma warning ( disable: 4996 )
